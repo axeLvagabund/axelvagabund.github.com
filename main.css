@@ -1,13 +1,9 @@
 /* Start */
 body{
+    background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/concrete_seamless.png");
     /*background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/zwartevilt.png");*/
     /*background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/concrete_wall.png");*/
-    background-image: url("https://pp.vk.me/c621619/v621619485/440be/WF_sU8CUxP8.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
 }
 
@@ -17,7 +13,7 @@ body{
 }
 
 .container {
-    background-color: #eee;
+    /*background-color: #eee;*/
     margin: 5% auto 2% auto;
     position: relative;
     width: 1000px;
