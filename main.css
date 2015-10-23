@@ -1,80 +1,50 @@
-/* Start */
-body{
-    background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/concrete_seamless.png");
-    /*background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/zwartevilt.png");*/
-    /*background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/concrete_wall.png");*/
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+body {
+	font-family: 'Open Sans';
+	font-size: 15px;
+	background-image: url("back.png");
 }
 
 @font-face {
-    font-family: comic-font;
-    src: url("comic-font.ttf");
+	font-family: 'comic';
+	src: url("comic-font.ttf");
 }
 
-.container {
-    /*background-color: #eee;*/
-    margin: 5% auto 2% auto;
-    position: relative;
-    width: 1000px;
-    /*padding: 10px 40px 0 40px;*/
+p {
+	margin-bottom: 50px;
+}
+
+h1 {
+	font-style: italic;
+	font-weight: 600;
 }
 
 .heading {
-    padding: 0;
-    padding: 60px 0 0px 0;
-    text-align: center;
-    font-size: 60px;
-    width: 100%;
-    font-family: comic-font;
+	font-family: 'comic';
+	font-size: 62px;
+	margin: 30px 0;
+	text-align: center;
 }
 
 .video {
-    position: relative;
-    margin: 0 auto;
-    width: 100%;
-    height: 500px;
+	width: 100%;
+	height: 380px;
+	margin: 15px 0;
 }
 
-.content {
-    padding: 10px 10% 0 10%;
+.container {
+	/*width: 800px;*/
 }
 
 .footer {
-    text-align: center;
-    position: relative;
-    width: 100%;
-    color: #595959;
-    background-color: #161616;
-    height: 100px;
-    line-height: 100px;
+	width: 100%;
+	background-color:rgba(132,132,132,0.1);
+	color: #7f7f7f;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
 }
 
-
-
-.navbar {
-    position: relative;
-}
-
-.navbar ul {
-padding: 0;
-margin: 0;
-list-style: none;
-}
-
-.navbar li {
-    outline: gray solid 1px;
-    float: left;
-    /*padding: 20px 50px;*/
-    width: 15%;
-}
-
-.navbar a {
-    /*outline: gray solid 1px;*/
-    /*float: left;*/
-    /*padding: 20px 50px;*/
-}
-
-.navbar li:hover {
-  background-color: #005f5f;
+.col-centered{
+    float: none;
+    margin: 0 auto;
 }
